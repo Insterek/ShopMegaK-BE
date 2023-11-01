@@ -8,9 +8,10 @@ import { categoryRouter } from "./routers/category";
 const app = express();
 app.use(
   cors({
-    origin: "https://localhost:3000",
+    origin: "http://localhost:3000",
   })
 );
+app.use(express.json());
 app.use(
   rateLimit({
     windowMs: 5 * 60 * 1000,

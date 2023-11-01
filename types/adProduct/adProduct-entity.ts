@@ -4,9 +4,10 @@ export interface NewAdProduct extends Omit<AdEntity, "id"> {
 export interface SimpleAdProduct {
   description: string;
   category: string;
+  img_url: string;
 }
 export interface AdEntity extends SimpleAdProduct {
+  id: string;
   title: string;
-  img_url: string;
   price: number;
 }
