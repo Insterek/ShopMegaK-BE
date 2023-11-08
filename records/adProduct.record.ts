@@ -1,4 +1,4 @@
-import { AdEntity, NewAdProduct, SimpleAdProduct } from "../types/adProduct";
+import { AdEntity, NewAdProduct } from "../types/adProduct";
 import { v4 as uuid } from "uuid";
 import { ValidationError } from "../utils/error";
 import { pool } from "../utils/db";
