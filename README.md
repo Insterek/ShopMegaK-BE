@@ -1,9 +1,8 @@
 # Clothing-Store
-
+[Demo](https://www.youtube.com/watch?v=ijAHOyyFzKE)
 ## General info:
 
 This is a simple clothing store application in which the user can browse offers. Currently, anyone can add a new product to the store, but over time the application will have a user profile from which adding a product will only be possible for a person with administrator rights.
-
 ## Technologies:
 
 - [Node.js](https://nodejs.org/en/docs)
