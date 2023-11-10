@@ -33,6 +33,9 @@ export class AdProduct implements AdEntity {
         "This title can't be empty and length must be  smaller than 2082 characters."
       );
     }
+    if (!obj.category) {
+      throw new ValidationError("This category can't be empty");
+    }
     this.id = obj.id;
     this.title = obj.title;
     this.description = obj.description;
